@@ -11,7 +11,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
 <script>
   window.infohubAsyncInit = function() {
     InfoHub.init({
-      id: 'my-container'
+      containerId: 'my-container'
     });
   };
 </script>
