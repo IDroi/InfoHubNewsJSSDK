@@ -12,6 +12,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
   window.infohubAsyncInit = function() {
     InfoHub.init({
       containerId: 'my-container'
+      country: 'GB',
     });
   };
 </script>
@@ -19,3 +20,11 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
 ```
 
 This code will load and initialize the SDK. You must provide the ID of your container that you want to show news within. It will load the SDK asynchronously without blocking your page loading.
+
+Available countries:
+
+|Country|Note|
+|-|-|
+|DE|Germany|
+|FR|France|
+|GB|United Kingdom of Great Britain and Northern Ireland|
