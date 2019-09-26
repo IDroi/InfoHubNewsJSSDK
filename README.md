@@ -16,7 +16,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
     });
   };
 </script>
-<script async defer src="https://idroi.github.io/InfoHubNewsJSSDK/sdk.js"></script>
+<script async defer src="https://idroi.github.io/InfoHubNewsJSSDK/main.js"></script>
 ```
 
 This code will load and initialize the SDK. You must provide the ID of your container that you want to show news within. It will load the SDK asynchronously without blocking your page loading.
