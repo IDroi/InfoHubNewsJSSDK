@@ -6,19 +6,28 @@ The InfoHub SDK for JavaScript enables you to browse a list of news with simple 
 
 There is no standalone files that need to be downloaded to make the InfoHub SDK for JavaScript work. Simply create a `<div>` as the container to display the news, and put a short piece of regular JavaScript in your HTML after the `<body>` tag as follows:
 
-```js
+```html
 <div id="my-container"></div>
 <script>
   window.infohubAsyncInit = function() {
     InfoHub.init({
       containerId: 'my-container'
       language: 'en-GB',
+      channelId: 'YOUR_CHANNEL_ID'
     });
   };
 </script>
+<!-- Specify your target SDK version, or omit the version by simply using `latest`. -->
 <script async defer src="https://idroi.github.io/InfoHubNewsJSSDK/infohub-news-latest.js"></script>
 ```
 
 This code will load and initialize the SDK. You must provide the ID of your container that you want to show news within. It will load the SDK asynchronously without blocking your page loading.
 
 Available languages must comply the `[language]-[COUNTRY]` pattern. Refer available languages via http://www.lingoes.net/en/translator/langcode.htm.
+
+## Release notes
+
+|Version|Note|
+|-|-|
+|0.0.0|Initial version|
+|0.1.0|Event tracking enabled|
