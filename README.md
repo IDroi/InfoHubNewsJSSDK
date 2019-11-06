@@ -14,6 +14,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
       containerId: 'my-container'
       language: 'en-GB',
       channelId: 'YOUR_CHANNEL_ID'
+      channelUserId: 'USER_ID_FOR_YOUR_CHANNEL',
     });
   };
 </script>
@@ -31,3 +32,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |-|-|
 |0.0.0|Initial version|
 |0.1.0|Event tracking enabled|
+|0.2.0|Configurable channel user identifier; load more news on scrolling|
