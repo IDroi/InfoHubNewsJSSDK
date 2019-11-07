@@ -34,3 +34,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.1.0|Event tracking enabled|
 |0.2.0|Configurable channel user identifier; load more news on scrolling|
 |0.2.1|Thumbnail gradient removed; description cropped|
+|0.2.2|Mobile news layout fine-tuned|
