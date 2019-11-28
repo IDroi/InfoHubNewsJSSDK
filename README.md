@@ -15,8 +15,8 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
       language: 'en-GB',
       channelId: 'YOUR_CHANNEL_ID'
       channelUserId: 'USER_ID_FOR_YOUR_CHANNEL',
-      redirectUrl: 'REDIRECT_URL',
-      infiniteMode: 'ENABLE_INFINITE_SCROLL_OR_NOT'
+      infiniteMode: 'ENABLE_INFINITE_SCROLL_OR_NOT',
+      finiteLimit='NUMBER_LIMIT_OF_NEWS_IN_FINITE_MODE'
     });
   };
 </script>
@@ -40,3 +40,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.3|Mobile news layout modified; duplicate news removed|
 |0.2.4|New API updated|
 |0.2.5|New API updated|
+|0.2.6|FiniteMode updated|
