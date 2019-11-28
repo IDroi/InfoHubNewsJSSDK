@@ -36,3 +36,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.1|Thumbnail gradient removed; description cropped|
 |0.2.2|Mobile news layout fine-tuned|
 |0.2.3|Mobile news layout modified; duplicate news removed|
+|0.2.4|New API updated|
