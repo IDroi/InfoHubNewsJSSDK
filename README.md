@@ -11,12 +11,22 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
 <script>
   window.infohubAsyncInit = function() {
     InfoHub.init({
-      containerId: 'my-container'
+      // Required
+      containerId: 'my-container',
       language: 'en-GB',
-      channelId: 'YOUR_CHANNEL_ID'
+      channelId: 'YOUR_CHANNEL_ID',
       channelUserId: 'USER_ID_FOR_YOUR_CHANNEL',
-      infiniteMode: 'ENABLE_INFINITE_SCROLL_OR_NOT',
-      finiteLimit='NUMBER_LIMIT_OF_NEWS_IN_FINITE_MODE'
+
+      // Optional
+      infiniteMode: false, // Default: true
+      finiteLimit: 5, // Required if infiniteMode: false
+      onInitialized: function(error) { // Error callback function on Initialization
+        if (error) {
+          // Handle error
+        } else {
+          // Handle success
+        }
+      }
     });
   };
 </script>
@@ -41,3 +51,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.4|New API updated|
 |0.2.5|New API updated|
 |0.2.6|FiniteMode updated|
+|0.2.7|Initialization error callback enabled|
