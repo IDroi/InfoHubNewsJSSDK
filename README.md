@@ -23,8 +23,10 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
       onInitialized: function(error) { // Error callback function on Initialization
         if (error) {
           // Handle error
+          console.log(error);
         } else {
           // Handle success
+          console.log("success");
         }
       }
     });
@@ -52,3 +54,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.5|New API updated|
 |0.2.6|FiniteMode updated|
 |0.2.7|Initialization error callback enabled|
+|0.2.8|Initialization error callback doc updated|
