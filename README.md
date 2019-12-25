@@ -55,3 +55,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.6|FiniteMode updated|
 |0.2.7|Initialization error callback enabled|
 |0.2.8|Initialization error callback doc updated|
+|0.2.9|Taboola SDK commented|
