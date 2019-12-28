@@ -20,6 +20,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
       // Optional
       infiniteMode: false, // Default: true
       finiteLimit: 5, // Required if infiniteMode: false
+      useBackupLanguage: true, // Default: false
       onInitialized: function(error) { // Error callback function on Initialization
         if (error) {
           // Handle error
@@ -58,3 +59,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.2.9|Taboola SDK commented|
 |0.3.0|Locale parsing error fixed; Non-supported locale error messages enabled|
 |0.3.1|Taboola's error for empty ads array enabled|
+|0.3.2|Backup language option enabled|
