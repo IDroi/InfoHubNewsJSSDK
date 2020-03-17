@@ -62,3 +62,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.3.2|Backup language option enabled|
 |0.3.3|Logic for news content optimized|
 |0.3.4|Infohub demo page enabled|
+|0.3.5|Bugs fixed and Taboola's safeguard enabled|
