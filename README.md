@@ -65,3 +65,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.3.5|Bugs fixed and Taboola's safeguard enabled|
 |0.3.6|Default locale and channel enabled|
 |0.3.7|Taboola duplicate news removed|
+|0.3.8|Game button enabled|
