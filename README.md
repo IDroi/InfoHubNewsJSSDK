@@ -68,3 +68,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.3.8|Game button enabled|
 |0.3.9|Large news layout enabled|
 |0.4.0|Banner ads enabled|
+|0.4.1|Redundant features removed|
