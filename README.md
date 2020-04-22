@@ -20,6 +20,7 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
       // Optional
       infiniteMode: false, // Default: true
       finiteLimit: 5, // Required if infiniteMode: false
+      largeNewsRepeatIndex: 4, // Default: 0 (e.g. if 4, then 1 large news layout for every 4 news)
       useBackupLanguage: true, // Default: false
       onInitialized: function(error) { // Error callback function on Initialization
         if (error) {
@@ -69,3 +70,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.3.9|Large news layout enabled|
 |0.4.0|Banner ads enabled|
 |0.4.1|Redundant features removed|
+|0.4.2|Large news layout option enabled|
