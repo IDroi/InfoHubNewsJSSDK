@@ -13,11 +13,11 @@ There is no standalone files that need to be downloaded to make the InfoHub SDK 
     InfoHub.init({
       // Required
       containerId: 'my-container',
-      language: 'en-GB',
-      channelId: 'YOUR_CHANNEL_ID',
       channelUserId: 'USER_ID_FOR_YOUR_CHANNEL',
 
       // Optional
+      language: 'en-GB', // If not set, then retreive from browser's setting || 'en-US'
+      channelId: 'YOUR_CHANNEL_ID', // If not set, then is equal to 'test'
       infiniteMode: false, // Default: true
       finiteLimit: 5, // Required if infiniteMode: false
       largeNewsRepeatIndex: 4, // Default: 0 (e.g. if 4, then 1 large news layout for every 4 news)
@@ -71,3 +71,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.4.0|Banner ads enabled|
 |0.4.1|Redundant features removed|
 |0.4.2|Large news layout option enabled|
+|0.4.3|Automatic locale and channelId detection enabled|
