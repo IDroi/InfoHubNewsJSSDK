@@ -72,3 +72,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.4.1|Redundant features removed|
 |0.4.2|Large news layout option enabled|
 |0.4.3|Automatic locale and channelId detection enabled|
+|0.4.4|Moblile phone news layout enabled|
