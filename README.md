@@ -74,3 +74,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.4.3|Automatic locale and channelId detection enabled|
 |0.4.4|Moblile phone news layout enabled|
 |0.4.5|Locale-dependent date dispaly format enabled|
+|0.4.6|RWD refined|
