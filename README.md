@@ -77,3 +77,4 @@ Available languages must comply the `[language]-[COUNTRY]` pattern. Refer availa
 |0.4.6|RWD refined|
 |0.4.7|CSS issues fixed|
 |0.4.8|WHO website embedded & CORS issues fixed|
+|0.4.9|file-loader in package.json issues fixed|
